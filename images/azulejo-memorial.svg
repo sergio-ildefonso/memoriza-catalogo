@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f3f66"/>
+      <stop offset="1" stop-color="#122742"/>
+    </linearGradient>
+    <radialGradient id="v" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.35"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <rect width="600" height="400" fill="url(#v)"/>
+  <g stroke-linecap="round"><ellipse cx="360" cy="200" rx="52" ry="26" transform="rotate(0 360 200)" stroke="#cfe2f7" stroke-width="1.5" fill="none" opacity="0.5"/><ellipse cx="342.42640687119285" cy="242.42640687119285" rx="52" ry="26" transform="rotate(45 342.42640687119285 242.42640687119285)" stroke="#cfe2f7" stroke-width="1.5" fill="none" opacity="0.5"/><ellipse cx="300" cy="260" rx="52" ry="26" transform="rotate(90 300 260)" stroke="#cfe2f7" stroke-width="1.5" fill="none" opacity="0.5"/><ellipse cx="257.57359312880715" cy="242.42640687119285" rx="52" ry="26" transform="rotate(135 257.57359312880715 242.42640687119285)" stroke="#cfe2f7" stroke-width="1.5" fill="none" opacity="0.5"/><ellipse cx="240" cy="200" rx="52" ry="26" transform="rotate(180 240 200)" stroke="#cfe2f7" stroke-width="1.5" fill="none" opacity="0.5"/><ellipse cx="257.57359312880715" cy="157.57359312880715" rx="52" ry="26" transform="rotate(225 257.57359312880715 157.57359312880715)" stroke="#cfe2f7" stroke-width="1.5" fill="none" opacity="0.5"/><ellipse cx="300" cy="140" rx="52" ry="26" transform="rotate(270 300 140)" stroke="#cfe2f7" stroke-width="1.5" fill="none" opacity="0.5"/><ellipse cx="342.42640687119285" cy="157.57359312880715" rx="52" ry="26" transform="rotate(315 342.42640687119285 157.57359312880715)" stroke="#cfe2f7" stroke-width="1.5" fill="none" opacity="0.5"/><circle cx="300" cy="200" r="150" stroke="#cfe2f7" stroke-width="1.5" fill="none" opacity="0.35"/><circle cx="300" cy="200" r="18" fill="#cfe2f7" opacity="0.55"/></g>
+</svg>
