@@ -6,7 +6,11 @@ Dados e imagens do catálogo do site [Memoriza](https://github.com/sergio-ildefo
 
 ```
 products.json      # lista de produtos
-images/*.svg       # imagens, referenciadas pelo campo "image"
+images/*           # imagens (SVG, PNG, JPEG, WebP), referenciadas pelo campo "image"
+index.html         # catálogo com CRUD (dev server)
+server/            # lógica da API que escreve products.json
+src/main.js        # UI do catálogo
+test/              # testes da API
 ```
 
 ## Formato
@@ -30,6 +34,22 @@ images/*.svg       # imagens, referenciadas pelo campo "image"
 | `image` | caminho da imagem, relativo à raiz deste repositório |
 
 ## Editar
+
+A forma recomendada é pela UI:
+
+```sh
+npm install
+npm run dev   # http://localhost:5173
+```
+
+O botão "Novo produto" cria; cada card tem "Editar" e "Apagar". No formulário podes
+escolher um ficheiro (PNG, JPEG ou WebP, até 5 MB) que é gravado em `images/`, ou
+indicar o caminho à mão. SVG não é aceite como upload (pode conter script).
+A API (`/api/products`, `/api/images`) escreve diretamente em `products.json` e `images/`.
+Isto só existe no dev server — o `vite build` é estático e mostra apenas o catálogo
+em só-leitura. Apagar um produto não apaga a imagem.
+
+Também podes editar à mão:
 
 1. Altera `products.json` e/ou `images/`.
 2. Faz commit e push para `main`.

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Placa de Nogueira",
     "description": "Placa em madeira de nogueira gravada a laser, ideal para homenagens.",
     "material": "Madeira",
@@ -8,6 +9,7 @@
     "image": "images/placa-nogueira.svg"
   },
   {
+    "id": 2,
     "name": "Azulejo Memorial",
     "description": "Azulejo com padrão tradicional português, gravado a laser.",
     "material": "Azulejo",
@@ -16,6 +18,7 @@
     "image": "images/azulejo-memorial.svg"
   },
   {
+    "id": 3,
     "name": "Porta-chaves em Couro",
     "description": "Porta-chaves em couro natural com iniciais gravadas a laser.",
     "material": "Couro",
@@ -24,6 +27,7 @@
     "image": "images/porta-chaves-couro.svg"
   },
   {
+    "id": 4,
     "name": "Copo Gravado",
     "description": "Copo de vidro com nome e data gravados a laser.",
     "material": "Vidro",
@@ -32,6 +36,7 @@
     "image": "images/copo-gravado.svg"
   },
   {
+    "id": 5,
     "name": "Placa de Acrílico",
     "description": "Placa de acrílico com gravação de precisão para escritório.",
     "material": "Acrílico",
@@ -40,6 +45,7 @@
     "image": "images/placa-acrilico.svg"
   },
   {
+    "id": 6,
     "name": "Medalha em Metal",
     "description": "Medalha em metal escovado com gravação a laser.",
     "material": "Metal",
